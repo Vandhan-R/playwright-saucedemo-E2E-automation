@@ -31,12 +31,18 @@ The flow covers Login, adding products to the cart, verifying items, checkout an
 ---
 
 ## How to run the tests
+Node.js 18+ and Git installed
 
-Install dependencies and run the tests
-```sh
+# 1) Install dependencies
 npm install
+
+# 2) Install Playwright browsers (Chromium/Firefox/WebKit)
 npx playwright install
+
+# 3) Run the tests (headless)
 npm test
+
+# 4) Open the HTML report
 npm run report
 
 ---
@@ -44,13 +50,13 @@ npm run report
 ## Project Structure
 
 tests/
-  SauceDemo.spec.js
+   SauceDemo.spec.js
 PageObject/
-  Login.js
-  AddingProducts.js
-  CheckOut.js
-  OrderPage.js
-  Checkoutoverpage.js
-  OrderComplete.js
+   Login.js
+   AddingProducts.js
+   CheckOut.js
+   OrderPage.js
+   Checkoutoverpage.js
+   OrderComplete.js
 .github/workflows/
-  playwright.yml (GitHub Actions CI)
+   playwright.yml (GitHub Actions CI)
