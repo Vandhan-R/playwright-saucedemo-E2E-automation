@@ -49,19 +49,19 @@ npm run report
 
 ## Project Structure
 
-├── tests/
-│   └── SauceDemo.spec.js
-├── PageObject/
-│   ├── Login.js
-│   ├── AddingProducts.js
-│   ├── CheckOut.js
-│   ├── OrderPage.js
-│   ├── Checkoutoverpage.js
-│   └── OrderComplete.js
-├── .github/
-│   └── workflows/
-│       └── playwright.yml  # GitHub Actions CI
-├── Jenkinsfile              # Jenkins Pipeline CI
-├── package.json
-└── README.md
+- tests/
+  - SauceDemo.spec.js
+- PageObject/
+  - Login.js
+  - AddingProducts.js
+  - CheckOut.js
+  - OrderPage.js
+  - Checkoutoverpage.js
+  - OrderComplete.js
+- .github/workflows/
+  - playwright.yml //(GitHub Actions CI)
+- Jenkinsfile  //(Jenkins Pipeline CI)
+- package.json
+- README.md
+
 
